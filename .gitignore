@@ -1,0 +1,27 @@
+# ROS 2 / Colcon build artifacts
+**/build/
+**/install/
+**/log/
+
+# Python cache & build artifacts
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# C++ / CMake artifacts
+*.o
+*.so
+*.a
+CMakeCache.txt
+CMakeFiles/
+
+# ROS bag / DB files
+*.db3
+*.mcap
+*.bag
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
